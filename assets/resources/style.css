@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.Container .TopHeaderContainer {
+  background-color: #1c1c1c;
+}
+
+.Container .TopHeaderContainer .TopHeader {
+  max-width: 1200px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.75rem 0;
+  color: #fff;
+}
+
+.Container .TopHeaderContainer .TopHeader .Left,
+.Container .TopHeaderContainer .TopHeader .Right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Container .TopHeaderContainer .TopHeader .Left .Phone,
+.Container .TopHeaderContainer .TopHeader .Left .Email,
+.Container .TopHeaderContainer .TopHeader .Right .Phone,
+.Container .TopHeaderContainer .TopHeader .Right .Email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 2rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.Container .TopHeaderContainer .TopHeader .Left .Phone span,
+.Container .TopHeaderContainer .TopHeader .Left .Email span,
+.Container .TopHeaderContainer .TopHeader .Right .Phone span,
+.Container .TopHeaderContainer .TopHeader .Right .Email span {
+  padding-right: 0.8rem;
+  color: #fce574;
+  font-size: 1.2rem;
+}
+
+.Container .TopHeaderContainer .TopHeader .Right .SocialTopHeaderIcons span {
+  margin-left: 1.555555rem;
+}
+
+.Container .TopHeaderContainer .TopHeader .Right .SocialTopHeaderIcons span .fab {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.Container .TopHeaderContainer .TopHeader .Right .SocialTopHeaderIcons span .fab:hover {
+  color: #fce574;
+  cursor: pointer;
+}
+
+.Container .TopNavigationContainer .TopNavigation {
+  max-width: 1200px;
+  margin: 1.2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #1c1c1c;
+}
+
+.Container .TopNavigationContainer .TopNavigation .Left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.Container .TopNavigationContainer .TopNavigation .Right {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+.Container .TopNavigationContainer .TopNavigation .Right nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.Container .TopNavigationContainer .TopNavigation .Right nav a {
+  margin-left: 2rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  color: #1c1c1c;
+  font-size: 1.125rem;
+  letter-spacing: 0.5px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  padding: 0 10px;
+}
+
+.Container .TopNavigationContainer .TopNavigation .Right nav a:after {
+  content: "";
+  position: absolute;
+  background-color: #1c1c1c;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.Container .TopNavigationContainer .TopNavigation .Right nav a:hover:after {
+  width: 100%;
+}
+
+.Container .HeroImageWrapper {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(28, 28, 28, 0.7)), to(rgba(28, 28, 28, 0.5))), url(/images/hero-front-page-1.jpg);
+  background-image: linear-gradient(rgba(28, 28, 28, 0.7), rgba(28, 28, 28, 0.5)), url(/images/hero-front-page-1.jpg);
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Container .HeroImageWrapper .HeroTextWrapper {
+  width: 1200px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container .HeroImageWrapper .HeroTextWrapper .Left {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+.Container .HeroImageWrapper .HeroTextWrapper .Left a {
+  color: #fce574;
+  text-decoration: none;
+  font-size: 1.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #1c1c1c;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.Container .HeroImageWrapper .HeroTextWrapper .Left a span {
+  margin-left: 1em;
+}
+
+.Container .HeroImageWrapper .HeroTextWrapper .Left a:hover {
+  background-color: #fce574;
+  color: #1c1c1c;
+}
+
+.Container .HeroImageWrapper .HeroTextWrapper .Right {
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+}
+
+.Container .HeroImageWrapper .HeroTextWrapper .Right h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.Container .HeroImageWrapper .HeroTextWrapper .Right h1 div {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.Container .HeroImageWrapper .HeroTextWrapper .Right h1 div a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 6rem;
+  line-height: 7.875rem;
+  font-weight: 800;
+  text-transform: lowercase;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.Container .HeroImageWrapper .HeroTextWrapper .Right h1 div a:hover {
+  color: #fce574;
+  text-shadow: 2px 2px 15px rgba(255, 255, 255, 0.3);
+}
+
+.Container .HeroImageWrapper .HeroTextWrapper .Right h1 div:hover {
+  -webkit-transform: translateX(40px);
+          transform: translateX(40px);
+}
+/*# sourceMappingURL=style.css.map */
